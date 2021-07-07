@@ -5,6 +5,7 @@ mod key_generation;
 #[cfg(test)]
 mod tests {
     use crate::encryption::RSAEncryptionManager;
+    // this private key is only a test one sorry little hacker 😜
     const PRIV_KEY: &str = r#"
 -----BEGIN RSA PRIVATE KEY-----
 MIIJKAIBAAKCAgEAn60JHWwejvHSmnN2sTbk511wgYj9TdTroS+buMIKjAtW4UNq
